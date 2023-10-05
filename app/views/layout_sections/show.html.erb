@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @layout_section %>
+
+<div>
+  <%= link_to "Edit this layout section", edit_layout_section_path(@layout_section) %> |
+  <%= link_to "Back to layout sections", layout_sections_path %>
+
+  <%= button_to "Destroy this layout section", @layout_section, method: :delete %>
+</div>

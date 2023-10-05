@@ -1,0 +1,2 @@
+class LayoutSection < ApplicationRecord
+end

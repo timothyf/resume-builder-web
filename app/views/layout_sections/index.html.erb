@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Layout sections</h1>
+
+<div id="layout_sections">
+  <% @layout_sections.each do |layout_section| %>
+    <%= render layout_section %>
+    <p>
+      <%= link_to "Show this layout section", layout_section %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New layout section", new_layout_section_path %>
